@@ -1,5 +1,11 @@
 {
+  "homepage": "https://smashawk.github.io/meetup_02",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
-    "backslide": "^2.4.0"
+    "backslide": "^2.4.0",
+    "gh-pages": "^2.2.0"
   }
 }
